@@ -1,0 +1,25 @@
+# Exercise 6: this one works. Everything is green. List at least 4 reasons
+# you still wouldn't ship it to production, then fix them.
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: orders
+  namespace: broken
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: orders
+  template:
+    metadata:
+      labels:
+        app: orders
+    spec:
+      containers:
+        - name: orders
+          image: traefik/whoami:latest
+          env:
+            - name: DB_PASSWORD
+              value: "Sup3rS3cret-FAKE"
+          ports:
+            - containerPort: 80

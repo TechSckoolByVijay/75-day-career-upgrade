@@ -1,0 +1,33 @@
+# Exercise: an AI assistant wrote this pipeline. It runs. It's green.
+# Find at least 6 problems before you'd let it near production.
+name: deploy
+
+on:
+  pull_request_target:
+  push:
+
+permissions: write-all
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@main
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+
+      - name: Login
+        run: |
+          echo "Logging in with ${{ secrets.REGISTRY_PASSWORD }}"
+          echo "${{ secrets.REGISTRY_PASSWORD }}" | docker login myregistry.example.com -u ci --password-stdin
+
+      - name: Build and push
+        run: |
+          docker build -t myregistry.example.com/shop:latest .
+          docker push myregistry.example.com/shop:latest
+
+      - name: Deploy
+        run: |
+          echo "${{ secrets.KUBECONFIG_PROD }}" > kubeconfig
+          kubectl --kubeconfig kubeconfig apply -f k8s/
+          kubectl --kubeconfig kubeconfig set image deploy/shop shop=myregistry.example.com/shop:latest

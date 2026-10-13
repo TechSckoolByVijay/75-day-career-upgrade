@@ -15,20 +15,28 @@
 ## The map
 | Week | Days | Explore |
 |---|---|---|
-| 0 | before Day 1 | Setup + where am I today? |
-| 1 | 1–7 | Foundations: Linux, Git, and AI as your study partner |
-| 2 | 8–14 | Docker |
-| 3 | 15–21 | Kubernetes I |
-| 4 | 22–28 | Kubernetes II: production basics |
-| 5 | 29–35 | Checkpoint 1: projects + self-check |
-| 6 | 36–42 | CI/CD with GitHub Actions |
-| 7 | 43–49 | Cloud (Azure) for admins |
-| 8 | 50–56 | Terraform |
-| 9 | 57–63 | Checkpoint 2: end-to-end project |
-| 10 | 64–70 | AI in DevOps and SRE |
-| 11 | 71–75 | Capstone + pick your path |
+| [0](week-00-setup/) | before Day 1 | Setup + where am I today? |
+| [1](week-01-foundations/) | 1–7 | Foundations: Linux, Git, and AI as your study partner |
+| [2](week-02-docker/) | 8–14 | Docker |
+| [3](week-03-kubernetes-1/) | 15–21 | Kubernetes I |
+| [4](week-04-kubernetes-2/) | 22–28 | Kubernetes II: production basics |
+| [5](week-05-checkpoint-1/) | 29–35 | Checkpoint 1: projects + self-check |
+| [6](week-06-cicd/) | 36–42 | CI/CD with GitHub Actions |
+| [7](week-07-cloud/) | 43–49 | Cloud (Azure) for admins |
+| [8](week-08-terraform/) | 50–56 | Terraform |
+| [9](week-09-checkpoint-2/) | 57–63 | Checkpoint 2: end-to-end project |
+| [10](week-10-ai-devops-sre/) | 64–70 | AI in DevOps and SRE |
+| [11](week-11-capstone/) | 71–75 | Capstone + pick your path |
 
-Each week's folder appears here when that week opens.
+Each week's lesson goes live when that week opens. The links don't change, so your tracker always points to the current version.
+
+## What's in this repo
+| Folder | What |
+|---|---|
+| `week-*` | The weekly lessons |
+| [`apps/`](apps/) | Two small apps you'll containerise, deploy and automate: **Notes** (Flask + Redis) and **Error Explainer** (an AI app) |
+| [`exercises/`](exercises/) | *Find the problem* exercises: broken Kubernetes YAML, and a flawed AI-written pipeline |
+| [`projects/`](projects/) | The three portfolio projects: Checkpoint 1, Checkpoint 2 and Capstone |
 
 ## Get the full kit
 The progress tracker, the PDF guide and the weekly lessons are free. The link will be added here at launch.

@@ -1,0 +1,21 @@
+# Exercise 1: kubectl apply refuses this file. Why?
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: web
+  namespace: broken
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: web
+  template:
+    metadata:
+      labels:
+        app: website
+    spec:
+      containers:
+        - name: web
+          image: traefik/whoami:v1.10.3
+          ports:
+            - containerPort: 80

@@ -18,22 +18,26 @@ docker run hello-world
 kubectl version --client
 kind create cluster --name upgrade
 kubectl get nodes          # one node, STATUS Ready
-kind delete cluster --name upgrade
+kind delete cluster --name upgrade   # or keep it: you'll use it from Week 3
 ```
 Stuck? Paste the **error message** (never passwords or keys) into your AI assistant and ask: *"I'm a beginner. Explain this error and how to fix it."*
 
 ## 3. Where am I today? (be honest, nobody sees this but you)
-Mark each one **Yes / Somewhat / No** in your tracker:
-1. I can move around folders and edit files in a Linux terminal.
-2. I can clone a Git repo, commit and push a change.
-3. I know what a container is and how it differs from a VM.
-4. I could explain what Kubernetes does to a friend.
-5. I have used a CI/CD pipeline (even just watched one run).
-6. I have created something in a cloud portal (Azure, AWS or GCP).
-7. I know what "infrastructure as code" means.
-8. I use an AI assistant at work at least once a week.
+In the tracker's **Self-check** tab, mark each one **Yes / Somewhat / No** in the *Start* column. *Can I…*
+1. move around folders and edit files in a Linux terminal?
+2. clone a Git repo, commit and push a change?
+3. explain what a container is and how it differs from a VM?
+4. explain what Kubernetes does, to a friend?
+5. deploy an app built from a Dockerfile to Kubernetes?
+6. explain when to use a Job, a CronJob or a Deployment?
+7. use a PersistentVolumeClaim comfortably?
+8. say why a Kubernetes YAML is NOT production-ready (probes, limits, secrets, image tags)?
+9. build a CI/CD pipeline that builds and tests on every push?
+10. create something in a cloud and clean it up again?
+11. explain what infrastructure as code means, and use Terraform plan/apply?
+12. use an AI assistant at work safely, at least once a week?
 
-You'll answer the same questions at the end. That's how you'll see your upgrade.
+Most people start with 0–3 Yes. That's the point. You'll answer the same questions in weeks 5, 9 and 11 and watch your level change: **Starter** (0–4) → **Working** (5–8) → **Intermediate** (9–12).
 
 ## 4. Set your goal
 Write one sentence in your tracker: *"In 75 days I want to be able to ______ so that ______."*

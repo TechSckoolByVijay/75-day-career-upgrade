@@ -1,0 +1,26 @@
+# Exercise 5: the pod starts, then restarts again and again. Find the reason in describe.
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: worker
+  namespace: broken
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: worker
+  template:
+    metadata:
+      labels:
+        app: worker
+    spec:
+      containers:
+        - name: worker
+          image: python:3.12-slim
+          # Pretend this is a real job that needs ~100 MB of memory.
+          command: ["python", "-c", "import time; data = bytearray(100 * 1024 * 1024); time.sleep(3600)"]
+          resources:
+            requests:
+              memory: 32Mi
+            limits:
+              memory: 64Mi

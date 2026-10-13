@@ -38,5 +38,14 @@ Each week's lesson goes live when that week opens. The links don't change, so yo
 | [`exercises/`](exercises/) | *Find the problem* exercises: broken Kubernetes YAML, and a flawed AI-written pipeline |
 | [`projects/`](projects/) | The three portfolio projects: Checkpoint 1, Checkpoint 2 and Capstone |
 
-## Get the full kit
-The progress tracker, the PDF guide and the weekly lessons are free. The link will be added here at launch.
+## Kit links
+| What | Link |
+|---|---|
+| Tracker (Excel) | [Download the .xlsx](tracker/75-Day-Career-Upgrade-Tracker.xlsx?raw=1) |
+| Tracker (Google Sheets) | *Make-a-copy link: coming before Day 1* |
+| Weekly check-in form (2 min) | *Opens at the end of Week 1* |
+| Live Q&A | Announced in the weekly email when enough questions come in |
+| Free kit: guide PDF + weekly emails | *Signup link added at launch* |
+| Questions | [dev.with.vijay@gmail.com](mailto:dev.with.vijay@gmail.com?subject=75-Day%20Challenge) |
+
+This table is the one place that's always current. The PDF guide and the tracker link here.

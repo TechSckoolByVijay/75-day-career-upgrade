@@ -60,4 +60,12 @@ Then ask your AI assistant: *"Review this Dockerfile for security and size probl
 ## Day 14: Catch up and reflect
 Weekly tab: mark the goal, and write 2 lines on what was easier or harder than expected.
 
-**Go deeper (optional):** [Hands On Kubernetes](https://www.readyforprod.cloud/courses/hands-on-kubernetes)
+## In our courses (optional)
+Every task above works with the free links. If you want it faster or deeper:
+
+| Day | Topic | Course → lecture |
+|---|---|---|
+| 8–9, 11–12 | Containers, images, volumes, Compose | Not in our courses yet. The Docker docs are enough. |
+| 10, 13 | Writing and reviewing a Dockerfile | [ChatGPT for DevOps](https://www.readyforprod.cloud/courses/chatgpt-for-devops) → "Use ChatGPT for Generating Dockerfile" |
+
+Next week (Kubernetes) maps to [Hands On Kubernetes](https://www.readyforprod.cloud/courses/hands-on-kubernetes).

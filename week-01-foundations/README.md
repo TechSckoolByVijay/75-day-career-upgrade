@@ -85,4 +85,12 @@ Finish anything from the week. In the tracker's **Weekly** tab, mark the goal an
 - what was easier than you expected
 - what was harder
 
-**Go deeper (optional):** [ChatGPT for DevOps](https://www.readyforprod.cloud/courses/chatgpt-for-devops)
+## In our courses (optional)
+Every task above works with the free links. If you want it faster or deeper:
+
+| Day | Topic | Course → lecture |
+|---|---|---|
+| 1–3 | Linux terminal | Not in our courses yet. The free links are enough. |
+| 4 | Git and GitHub | Not in our courses yet. The free links are enough. |
+| 5 | AI as your study partner | [ChatGPT for DevOps](https://www.readyforprod.cloud/courses/chatgpt-for-devops) → "Leveraging ChatGPT - Ask to Explain the Code" |
+| 6 | Script + AI review | [ChatGPT for DevOps](https://www.readyforprod.cloud/courses/chatgpt-for-devops) → "Coding with ChatGPT" |

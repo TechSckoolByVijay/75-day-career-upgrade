@@ -45,7 +45,7 @@ Each week's lesson goes live when that week opens. The links don't change, so yo
 | Tracker (Google Sheets) | *Make-a-copy link: coming before Day 1* |
 | Weekly check-in form (2 min) | *Opens at the end of Week 1* |
 | Live Q&A | Announced in the weekly email when enough questions come in |
-| Free kit: guide PDF + weekly emails | *Signup link added at launch* |
+| Free kit: guide PDF + weekly emails | [Get the free kit](https://www.readyforprod.cloud/products/digital_downloads/75-day-career-upgrade-challenge) |
 | Questions | [dev.with.vijay@gmail.com](mailto:dev.with.vijay@gmail.com?subject=75-Day%20Challenge) |
 
 This table is the one place that's always current. The PDF guide and the tracker link here.
